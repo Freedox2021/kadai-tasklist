@@ -1,0 +1,8 @@
+<ul class="list-unstyled">
+  <% tasks.each do |task| %>
+ <div> 
+   <%= link_to task.id, task %> : <%= task.status %> &gt; <%= task.content %>
+  </div> 
+    <li class="media mb-3"></li>
+  <% end %>
+</ul>
