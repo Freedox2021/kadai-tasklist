@@ -1,5 +1,5 @@
 <ul class="list-unstyled">
-  <% tasks.each do |task| %>
+  <% @tasks.each do |task| %>
  <div> 
    <%= link_to task.id, task %> : <%= task.status %> &gt; <%= task.content %>
   </div> 
