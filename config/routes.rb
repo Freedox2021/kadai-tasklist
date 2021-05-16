@@ -8,6 +8,6 @@ root to: 'tasks#index'
 
   get 'signup', to: 'users#new'
   resources :tasks
-  resources :users, only: [:new, :show,]
+  resources :users, only: [:index, :show, :create,]
 
 end
